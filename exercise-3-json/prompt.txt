@@ -1,0 +1,19 @@
+
+Generate 500 order records dalam format JSON Lines (satu order per baris).
+
+Setiap order:
+{
+"order_id":"ORD-...",
+"customer":{"id":"C-...","name":"..."},
+"items":[
+{"sku":"SKU-...","qty":N,"price":N}
+],
+"total":N,
+"created_at":"..."
+}
+
+Constraints:
+- Tiap order punya 1-5 items
+- Sebagian (sekitar 10%) total tidak sama dengan sum(qty × price)
+- Customer ID bisa muncul di banyak order
+- Tanggal span 1 bulan terakhir
