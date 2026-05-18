@@ -1,0 +1,10 @@
+3941.57 /admin/login
+2063.57 /checkout
+1738.46 /api/data
+1058.97 /js/app.js
+1027.56 /home
+1027.46 /css/style.css
+1025.96 /profile
+1024.86 /contact
+1020.47 /api/v1/users
+1020.17 /
