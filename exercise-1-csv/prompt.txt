@@ -1,0 +1,8 @@
+Generate file CSV berisi 1000 baris data customer dengan kolom:
+id,nama,email,no_hp,tanggal_daftar,status
+
+Constraints:
+- tanggal_daftar campuran format dd/mm/yyyy, yyyy-mm-dd, dd-mm-yy
+- status campuran active, inactive, banned, aktive, Active, INCATIVE
+- email gmail/yahoo/hotmail + duplicate
+- nama Indonesia dengan typo capitalization
