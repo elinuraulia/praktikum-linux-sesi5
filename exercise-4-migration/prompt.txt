@@ -1,0 +1,10 @@
+Generate file produk-lama.csv sebanyak 2000 baris dengan kolom:
+kode_produk, nama_produk, harga, stok, kategori, last_updated
+
+Constraints:
+- Harga messy: ada yang "Rp 15.000", "15000", "15rb", "15.000", "Rp15000,-", "$1.20", null, kosong
+- Nama produk inconsistent capitalization
+- Ada extra whitespace
+- Kategori typo: pakaian, PAKAIAN, pakian, clothes
+- Last updated campuran format termasuk Unix epoch
+- Ada produk duplikat
